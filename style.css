@@ -1,5 +1,6 @@
 * {
     --lilac: #beaee2;
+    --dark-lilac: #b29fdd;
     --light-pink: #f7dbf0;
     --dark-pink: #FFABE1;
     --dark-purple: #52057B;
@@ -167,7 +168,8 @@ form input {
 
 .principal {
 	padding: 3em 0;
-	background: #F2D3BC;
+	/* background: #F2D3BC; */
+    background: #FEFEFE;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -189,7 +191,7 @@ p {
 
 .principal strong {
 	font-weight: bold;
-    color:#957DAD;
+    color: var(--dark-purple);
 }
 
 .principal em {
@@ -198,6 +200,7 @@ p {
 
 .mapa {
 	padding: 3em 0;
+    background: var(--lilac);
 }
 
 .mapa-conteudo {
@@ -213,7 +216,8 @@ p {
 .beneficios {
     font-size: 16px;
 	padding: 3em 0;
-	background: #FFFFFF;
+	/* background: #FFFFFF; */
+    background: linear-gradient(#FEFEFE, var(--lilac))
 }
 
 .conteudo-beneficios {
