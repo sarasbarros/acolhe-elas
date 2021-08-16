@@ -1,11 +1,29 @@
 * {
     --lilac: #beaee2;
     --light-pink: #f7dbf0;
+    --dark-pink: #FFABE1;
+    --dark-purple: #52057B;
+    --purple: #892CDC;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
-    background: #BC9E82;
+    background: var(--lilac);
     padding: 20px 0;
+}
+
+header .logo {
+    width: 300px;
+    height: 300px;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
 }
 
 .caixa {
@@ -13,6 +31,8 @@ header {
     width: 940px;
     margin: 0 auto;
 }
+
+/* css da nav */
 
 nav {
     position: absolute;
@@ -34,13 +54,13 @@ nav a {
 }
 
 nav a:hover {
-	color: #EBC8B2;
+	color: var(--dark-purple);
  	text-decoration: underline;
 }
 
 .banner { 
     width: 100%; 
-    height: 500px; 
+    height: 350px; 
 } 
 
 .icone {
@@ -83,19 +103,8 @@ h2 {
     font-weight: bold;
 }
 
-footer {
-    text-align: center;
-    background: #EBC8B2;
-    padding: 40px 0;
-}
 
-.copyright {
-    color: #C4B2AE;
-    font-size: 20px;
-    margin: 20px 0 0;
-}
-
-
+/* css do formulário */
 
 form {
     margin: 40px 0;
@@ -159,7 +168,7 @@ form input {
 .principal {
 	padding: 3em 0;
 	background: #F2D3BC;
-	width: 940px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -202,7 +211,7 @@ p {
 }
 
 .beneficios {
-    font-size: 25px;
+    font-size: 16px;
 	padding: 3em 0;
 	background: #FFFFFF;
 }
@@ -250,9 +259,10 @@ footer {
     background: var(--light-pink);
 }
 
-footer img {
-    width: 250px;
-    height: 250px;
+.copyright {
+    color: var(--purple);
+    font-size: 20px;
+    margin: 20px 0 0;
 }
 
 
